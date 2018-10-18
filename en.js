@@ -23,9 +23,9 @@
                 header: "Short and Bright",
                 price: "250",
                 description:
-                    "This fire show does not require much space, it can be shown almost everywhere. One actor will show a complete performance with 3 different types of fire props lasting 10 minutes. Then, in the final of the performance you will see an incredibly spectacular show of sparks, that is millions of burning sparks will crumble around the actor.  Perfect for a birthdays, kids’ parties, store or restaurant openings, themed nights, love confessions - any small, but definitely important, event will become brighter with my fire show. This fire show includes travel expenses in Luxembourg.",
+                    `This fire show does not require much space, it can be shown almost everywhere. One actor will show a complete performance with 3 different types of fire props lasting 10 minutes. Then, in the final of the performance you will see an incredibly spectacular show of sparks, that is millions of burning sparks will crumble around the actor. 
+Perfect for a birthdays, kids’ parties, store or restaurant openings, themed nights, love confessions - any small, but definitely important, event will become brighter with my fire show. This fire show includes travel expenses in Luxembourg.`,
                 images: [
-                    { src: "img/short-and-bright/dragon-staff-fire-show.jpg", alt: "fire show with dragon staff" },
                     { src: "img/short-and-bright/Anna-fire-show-staff-1.jpg", alt: "fire staff - Anna’s fire show" },
                     { src: "img/short-and-bright/Fire-show-Luxembourg-for-kids-party.jpg", alt: "Fire show in Luxembourg for kids party.jpg" },
                     { src: "img/short-and-bright/sparkl-show-in-Luxembourg.jpg", alt: " spark show in Luxembourg fire show performance" },
@@ -50,7 +50,8 @@
             details: {
                 header: "A party",
                 price: "300",
-                description: "The performance does not require much space, it can be shown almost everywhere. One actor will perform 3 times with breaks. Each time the artist will perform with new props. At the end of the last performance you will see an incredible show of sparks.This fire show is perfect for a buffet party when guests freely move around or if guests can watch the show sitting in their seats. Order this fire show and transport costs will be included throughout the whole Luxembourg.",
+                description: `The performance does not require much space, it can be shown almost everywhere. One actor will perform 3 times with breaks. Each time the artist will perform with new props. At the end of the last performance you will see an incredible show of sparks.
+This fire show is perfect for a buffet party when guests freely move around or if guests can watch the show sitting in their seats. Order this fire show and transport costs will be included throughout the whole Luxembourg.`,
                 images: [
                     { src: "img/party/fire-show-new-year.jpg", alt: "fire show on new year party" },
                     { src: "img/party/fire-show-in-led-costume.jpg", alt: "fire show in led costume" },
