@@ -1,14 +1,13 @@
-
+-
     var programCommonVariables = {
         displayPriceButtonText: "Afficher le prix",
         programsSectionHeadingText: "PROGRAMMES ET PRIX",
-        programsSectionSubHeadingText: 'Sélectionnez votre spectacle et cliquez sur "Afficher le prix". Tous les prix sont valables.
-',
+        programsSectionSubHeadingText: 'Sélectionnez votre spectacle et cliquez sur "Afficher le prix". Tous les prix sont valables.',
         details: {
             priceDescriptionText: "Le prix du spectacle est"
         }
     }
-
+-
     var programs = [
         {
             name: "program1-short-and-bright",
@@ -26,7 +25,7 @@
                 price: "250",
                 description:
                     `La performance n'exige pas beaucoup d'espace, elle peut être faite presque partout. L'artiste montrera la performance complète avec 3 différents types d'accessoires de feu pendant 10 minutes.
- A la fin de la performance vous verrez un spectacle incroyablement spectaculaire d'étincelles - autour de l'artiste des millions d'étincelles brûlantes seront comblées.`,
+                    A la fin de la performance vous verrez un spectacle incroyablement spectaculaire d'étincelles - autour de l'artiste des millions d'étincelles brûlantes seront comblées.`,
                 images: [
                     { src: "img/short-and-bright/Anna-fire-show-staff-1.jpg", alt: "fire staff - Anna’s fire show" },
                     { src: "img/short-and-bright/Fire-show-Luxembourg-for-kids-party.jpg", alt: "Fire show in Luxembourg for kids party.jpg" },
@@ -54,8 +53,7 @@
                 price: "300",
                 description:
                 `La performance n'exige pas beaucoup d'espace, elle peut être faite presque partout. L’artiste montrera la performance 3 fois avec des pauses. Chaque fois l'artiste se produira avec de nouveaux accessoires.
-À la fin de la troisième performance, vous verrez un spectacle d'étincelles fabuleux.
-`,
+                À la fin de la troisième performance, vous verrez un spectacle d'étincelles fabuleux.`,
                 images: [
                     { src: "img/party/fire-show-new-year.jpg", alt: "fire show on new year party" },
                     { src: "img/party/fire-show-in-led-costume.jpg", alt: "fire show in led costume" },
