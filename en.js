@@ -1,7 +1,8 @@
-    var commons = {
-        displayPriceButtonText: "Preis zeigen",
-        programsSectionHeadingText: "PROGRAMME UND PREISE",
-        programsSectionSubHeadingText: 'Wählen ihre Show und drücken „Preis zeigen“. Alle Preise sind aktualisiert.',
+
+    var programCommonVariables = {
+        displayPriceButtonText: "Display price",
+        programsSectionHeadingText: "PROGRAMMES AND PRICES",
+        programsSectionSubHeadingText: 'Select your show and click "Display price". All prices are effective.',
         details: {
             priceDescriptionText: "The price for standard show is "
         }
@@ -11,21 +12,21 @@
         {
             name: "program1-short-and-bright",
             pageImage: "img/main-pictures/Short-and-Bright-fire-show.jpg",
-            title: "Kurz und hell",
+            title: "Short and Bright",
             bulletPoints: [
-                "Fireshow: 1 Artist",
-                "Dauer: 10 Minuten",
-                "3 Arten der Feuerrequisiten",
-                "LED-Kostüm",
-                "Funkenshow",
+                "Fire show: 1 actor",
+                "Duration: 10 minutes",
+                "3 types of fire props",
+                "LED (light-emitting-diode) costumes",
+                "Show of sparks finale",
             ],
             details: {
-                header: "Kurz und hell",
+                header: "Short and Bright",
                 price: "250",
                 description:
-                    "Für die Vorstellung braucht man nicht viel Platz, sie kann fast überall durchgeführt werden. Ein Artist führt die ganze Vorstellung mit 3 verschiedenen Arten von Feuerrequisiten mit der Dauer von 10 Minuten durch; am Ende der Vorstellung werden Sie eine unglaublich spektakuläre Funkenshow sehen – Millionen brennender Funken werden um den Künstler duschen.",
+                    `This fire show does not require much space, it can be shown almost everywhere. One actor will show a complete performance with 3 different types of fire props lasting 10 minutes. Then, in the final of the performance you will see an incredibly spectacular show of sparks, that is millions of burning sparks will crumble around the actor. 
+                    Perfect for a birthdays, kids’ parties, store or restaurant openings, themed nights, love confessions - any small, but definitely important, event will become brighter with my fire show. This fire show includes travel expenses in Luxembourg.`,
                 images: [
-                    { src: "img/short-and-bright/dragon-staff-fire-show.jpg", alt: "fire show with dragon staff" },
                     { src: "img/short-and-bright/Anna-fire-show-staff-1.jpg", alt: "fire staff - Anna’s fire show" },
                     { src: "img/short-and-bright/Fire-show-Luxembourg-for-kids-party.jpg", alt: "Fire show in Luxembourg for kids party.jpg" },
                     { src: "img/short-and-bright/sparkl-show-in-Luxembourg.jpg", alt: " spark show in Luxembourg fire show performance" },
@@ -39,18 +40,19 @@
         }, {
             name: "program2-party",
             pageImage: "img/main-pictures/A-party-fire-show.jpg",
-            title: "Party",
+            title: "A party",
             bulletPoints: [
-                "Fireshow: 1 Artist ",
-                "3 Auftritte, jeder 3-5 Minuten lang",
-                "3 Arten der Feuerrequisiten",
-                "LED-Kostüm",
-                "Funkenshow",
+                "Fire show: 1 actor",
+                "3 separate performances for 3 minutes",
+                "3 types of fire props",
+                "LED (light-emitting-diode) costumes",
+                "Show of sparks finale",
             ],
             details: {
-                header: "Party",
+                header: "A party",
                 price: "300",
-                description: "Für die Vorstellung braucht man nicht viel Platz, sie kann fast überall durchgeführt werden. Der Artist betritt die Bühne dreimal mit Pausen. Jeder Artist tritt mit neuen Requisiten auf. Am Ende des dritte Auftritts werden Sie eine unglaubliche Funkenshow sehen.",
+                description: `The performance does not require much space, it can be shown almost everywhere. One actor will perform 3 times with breaks. Each time the artist will perform with new props. At the end of the last performance you will see an incredible show of sparks.
+                              This fire show is perfect for a buffet party when guests freely move around or if guests can watch the show sitting in their seats. Order this fire show and transport costs will be included throughout the whole Luxembourg.`,
                 images: [
                     { src: "img/party/fire-show-new-year.jpg", alt: "fire show on new year party" },
                     { src: "img/party/fire-show-in-led-costume.jpg", alt: "fire show in led costume" },
@@ -58,25 +60,29 @@
                     { src: "img/party/fire-poi.jpg", alt: "fire poi" },
                     { src: "img/party/fire-show-1-artist-party.jpg", alt: "1 artist party" },
                     { src: "img/party/spark-show-party.jpg", alt: "spark show and fire show on festivale in luxembourg" },
-                    { src: "img/party/fire-show-time-laps", alt: "fire show photo sessions" },
                 ]
             }
         }, {
             name: "program3-wedding",
             pageImage: "img/main-pictures/wedding-fire-show.jpg",
-            title: "Hochzeit",
+            title: "Wedding",
             bulletPoints: [
-                "Fireshow: 1 Artist",
-                "Dauer: 15 Minuten",
-                "4-5 Arten der Feuerrequisiten",
-                "LED-Kostüme",
-                "Das große Feuerherz",
-                "Feuerwerksfinale (2-3 Requisiten)",
+                "Fire show: 1 actor",
+                "Duration: 15 minutes",
+                "4 types of fire props",
+                "LED (light-emitting-diode) costumes",
+                "Flaming heart + 2 heart torch",
+                "pyrotechnic final - 2 unit",
             ],
             details: {
-                header: "Hochzeit",
+                header: "Wedding",
                 price: "400",
-        description: "Feuershow Hochzeit ist die beliebteste Show für die Hochzeit aufgrund der Ergebnisse 2017. Artist in LED-Kostümen treten mit einer feurigen Show auf. Fast jede 2 Minuten werden Requisiten gewechselt, sodass die Betrachter nicht gelangweilt sind. Am Ende der Feuershow sehen Sie ein pyrotechnischer Finale mit mehreren pyrotechnischen Elementen erzeugen. Das ist aber nicht alles – Jungvermählten werden Feuerherzen angeboten, mit denen sie ein großes Herz als Symbol der Liebe, die sie verbindet, anzünden. Ihre Fotos werden unglaublich schön! Die Show kann für andere Veranstaltungen angepasst werden. Zum Beispiel können Sie gegen eine zusätzliche Gebühr die Show mit einer feurigen Inschrift mit dem Datum des Jahrestages dekorieren oder den Namen Ihrer Firma schreiben.",
+                description: `Wedding fire show can be a great gift for the just-married couple or an incredibly vivid entertainment for your guests. It is also the only one fire show when you can participate in the performance. In the final of the fire show, a just-married couple sets on fire one big heart from two hearts torch as a sign of their unity.  Several types of pyrotechnics will work in the final of the fire show,. A real salute just a few meters from the ground is an incredibly bright end for your most special day!
+        If you order a fire show as a surprise gift, all you need - to discuss a fire show performance with the owner of the wedding venue.The artist will come and start
+        preparation without any additional needs.By prior arrangement, I will bring my own musical equipment.
+        As usual, the price of a wedding fire show includes transportation costs throughout Luxemburg
+        If you order a fire show outside of Luxembourg, please indicate the location of your wedding in a letter and I will calculate the cost of transport for you.
+        `,
                 images: [
                     { src: "img/wedding/Flaming-heart-for-a-wedding-fire-show.jpg", alt: "Fire show for wedding flame heart" },
                     { src: "img/wedding/wedding-fire-show-Luxembourg.jpg", alt: "wedding fire show flame heart and letters" },
@@ -97,18 +103,20 @@
         }, {
             name: "program4-guest-greetings",
             pageImage: "img/main-pictures/guest-greetings.jpg",
-            title: "Gastgrüße",
+            title: "Guest greetings",
             bulletPoints: [
-                "Fireshow: 1 Artist",
-                "1 Stunde mit 10 Minuten Pause dazwischen",
-                "4-6 Arten der Feuerrequisiten",
-                "LED-Kostüm",
-                "Improvisation für Hintergrundmusik",
+                "Fire show: 1 actor",
+                "1 hour with 10 min break between",
+                "3-6 types of fire props ",
+                "LED (light-emitting-diode) costumes",
+                "improvisation for any background music",
             ],
             details: {
-                header: "Gastgrüße",
+                header: "Guest greetings",
                 price: "380",
-                description: "Gastgrüße ist eine sehr spezifische und interessante Feuershow. Bei dieser Feuershow steht nicht die Komplexität der Tricks oder Künstlerperformance im Vordergrund, sondern die Schaffung einer bestimmten Luxusatmosphäre Während Ihre Gäste ankommen.юEine solche Feuershow eignet sich nicht nur für Geschäftstreffen, Präsentationen und Firmenveranstaltungen, sondern auch für Hochzeiten oder Partys. Außerhalb Luxemburgs wird der Transport individuell berechnet, abhängig von der Entfernung und den Verkehrsverbindungen.",
+                description: `Guests welcoming" is a very specific and interesting fire show. In this fire show, the main emphasis is not on the complexity of the tricks or artist performance itself - but the creation of a certain luxury atmosphere and a beautiful background. While your guests arriving and have a welcome drink, the artist will fill in the pauses and give topics for conversation.
+        Such a fire show is perfect not only for business meetings, presentations and corporate events, but also for weddings or parties. For all Luxembourg, transport costs are included in the price of the fire show.
+        Outside Luxembourg, transport is calculated individually depending on the distance and transport connections.`,
                 images: [
                     { src: "img/guest-greetings/Fire-show-Luxembourg-kids-party.jpg", alt: "fire show kids party" },
                     { src: "img/guest-greetings/fire-show-in-luxemboug-mudam.jpg", alt: "fire show near the Luxembourg Mudam" },
@@ -124,20 +132,21 @@
             pageImage: "img/main-pictures/festival.jpg",
             title: "Festival",
             bulletPoints: [
-                "Fireshow: 1 Artist",
-                "Dauer: 20-25 Minuten",
-                "6-7 Arten der Feuerrequisiten",
-                "LED-Kostüme",
-                "Funkenshow",
-                "Feuerwerksfinale (2-3 Requisiten)",
+                "Fire show: 1 actor",
+                "Duration: 20 minutes",
+                "6 types of fire props",
+                "LED (light-emitting-diode) costumes",
+                "Show of sparks finale",
+                "pyrotechnic final - 2-3 unit",
             ],
             details: {
-                header: "Festival",
+                header: "festival",
                 price: "500",
-                description: `Die längste und hellste Feuershow. Verschiedene Musikthemen, 7 Arten der Feuerrequisiten, eine unglaubliche Funkenshow und ein festliches pyrotechnisches Finale. Alle hellsten Dinge, die eine Feuershow enthalten kann, sind in diesem Programm enthalten - Jonglieren, komplexe Tricks, Feuereffekte. Pyrotechnische Elemente auf dem Boden dekorieren die Show, wann die  Artist mit feurigen Requisiten auftreten. Unsere unglaubliche Funkenshow und die feurige Inschrift am Ende lassen niemanden vergessen, was sie gesehen haben!
- Diese Feuershow eignet sich für alle Veranstaltungen, einschließlich großer internationaler Festivals. Eine solche Show erfordert etwas Platz und alle Details sollten im Voraus besprochen werden. Wie immer sind alle Transportkosten im Preis der Feuershow enthalten.`,
+                description: `The longest and brightest fireshow. Several musical themes, 6 types of different fire props, an incredible "Spark Show" and festive pyrotechnic final. All the brightest things that can be in a fireshow are included in this program - juggling, complex tricks, fire effects. This fireshow is suitable for any event including major international festivals. And if you want to emphasize the individuality of your performance, add a fiery inscription with any content!
+        Such a show requires some space and all details better to discuss in advance.
+        As always, all transportation costs are included in the fireshow price and we do not require a make-up room or catering when performing in Luxembourg.`,
                 images: [
-                    { src: "img/festival/fire-show-in-nus-des-lamptions.JPG", alt: "fire show nus des lamptions festival" },
+                    { src: "img/festival/fire-show-in-nus-des-lamptions.jpg", alt: "fire show nus des lamptions festival" },
                     { src: "img/festival/festivale pyrotechnic.jpg", alt: "pyrotechnic finale fire show in festival" },
                     { src: "img/festival/Fire-show-in-Lux-Anna.jpg", alt: "fire show with pyrotechnic in festival" },
                     { src: "img/festival/nus-des-laptions-fire-show.png", alt: "nus des lamptions Luxembourg festival" },
@@ -154,19 +163,21 @@
         {
             name: "program6-fire-inscription",
             pageImage: "img/main-pictures/fire-inscriptions-fire-show.jpg",
-            title: "Feuerinschrift",
+            title: "Fire inscription",
             bulletPoints: [
-                "Brenndauer 2-3 Minuten",
-                "Die Höhe des Symbols beträgt fast 1 Meter",
-                "Im Finale der Feuershow oder separat",
+                "Burning duration 2-3 minutes",
+                "The height of the symbol is almost 1 meter",
+                "In the fire show finale or separately",
             ],
 
             details: {
-                header: "Feuerinschrift",
-                price: "from 30 euro per symbol",
-                description: `Feuerinschrift sind in Luxemburg eine 100% ige Neuheit.  Schreiben Sie "I ♥ U", um Ihre Gefühle auszudrücken oder vielleicht sind Sie bereit zu schreiben: "Heiraten Sie mich?".
- Für Firmenveranstaltungen empfehlen wir, einen Firmennamen oder ein Logo zu schreiben. Sie können das Party-Thema mit den Worten "Neues Jahr 2019" oder "Sommerfest" betonen.
- Die Feuerinschrift kann das Ende einer Feuershow oder einer individuellen Aufführung sein. Dies ist in jedem Fall ein hervorragender Hintergrund für ein Gruppenfoto und Eindrücke, die lange in Erinnerung bleiben werden. Der Künstler kann die Inschrift installieren und im richtigen Moment in Brand setzen. Sie können die Schönheit einfach genießen. Die Kosten hängen von der Anzahl der Zeichen und dem Standort ab.`,
+                header: "Fire inscription",
+                price: "from 30",
+                description: `Fire inscriptions are a 100% novelty in Luxembourg. Make a nice gift for the hero of the day, and write "25" by fire letters instead of the usual candles on the cake! Write "I ♥ U" to state your feelings or maybe you are ready to write "will you marry me ? ".
+        For corporate events, we recommend to write a company name or a logo.You can emphasize the party theme with the words "new year 2019" or "summer party".
+        The fire lettering can be the end of a fire show or an individual performance.In any case, this is an excellent background for a group photo and impressions that will be remembered for a long time.
+        Artist make installation of the inscription and set it on fire in right moment.You can just enjoy the beauty.
+        The cost will depend on the number of characters and location.`,
                 images: [
                     { src: "img/fire-inscription/fire-inscriptions-fire-show.jpg", alt: "" },
                     { src: "img/fire-inscription/fire-letteriing.jpg", alt: "" },
@@ -179,19 +190,19 @@
         },
         {
             name: "program7-led",
-            pageImage: "img/main-pictures/fire-led-2ppl.jpg",
-            title: "Lichtshow",
+            pageImage: "img/main-pictures/led-show.jpg",
+            title: "Light Show",
             bulletPoints: [
-                "Lichtshow: 1 Artist",
-                "Ein paar Programme zur Verfügung",
-                "3-4 Arten von LED-Requisiten",
-                "LED-Kostüme (Leuchtdiode)",
+                "Light show: 1 actor",
+                "couple of programs available ",
+                "3-4 types of LED props",
+                "LED (light-emitting-diode) costumes",
             ],
 
             details: {
-                header: "Lichtshow",
+                header: "Light Show",
                 price: "250-380",
-                description: "Bitte kontaktieren Sie uns, um mehr darüber zu erfahren Lichtshow",
+                description: "Please contact us to find out more info about this show and get pictures and videos.",
                 images: [
                     { src: "img/led/1.JPG", alt: "" },
                     { src: "img/led/2.jpg", alt: "" },
@@ -200,20 +211,20 @@
         },
         {
             name: "program8-flag",
-            pageImage: "img/main-pictures/fire-led-2ppl.jpg",
+            pageImage: "img/main-pictures/coming-soon.jpg",
             title: "Flag Show",
             bulletPoints: [
-                "Flag Show: 1 Artist ",
-                "Dauer: 10 -15 Minuten",
-                "4 Arten von Flag Requisiten",
-                "LED-Kostüme ",
-                "Raucheffekte",
+                "Flag show: 1 actor",
+                "Duration: 15 minutes",
+                "4 types of fire props",
+                "LED (light-emitting-diode) costumes",
+                "Smoke effects",
             ],
 
             details: {
                 header: "Flag Show",
                 price: "250",
-                description: "Bitte kontaktieren Sie uns, um mehr darüber zu erfahren Flag Show",
+                description: "Please contact us to find out more info about this show and get pictures and videos.",
                 images: [
                     { src: "img/flag/1.JPG", alt: "" },
                     { src: "img/flag/2.jpg", alt: "" },
@@ -222,23 +233,26 @@
         },
         {
             name: "program9-festival-combo",
-            pageImage: "img/main-pictures/fire-led-2ppl.jpg",
+            pageImage: "img/main-pictures/festival-combo.jpg",
             title: "Festival combo",
             bulletPoints: [
-                "Fireshow: Festival",
-                "Lichtshow",
-                "Flag Show",
-                "Gesamtdauer 50 min",
-                "3 verschiedene Show und verschiedene Kostüme",
+                "Light show",
+                "Flag show",
+                "Fire show “Festival",
+                "Total duration 50 min",
+                "3 different show and different costumes",
             ],
 
             details: {
                 header: "Festival combo",
                 price: "1000",
-                description: "Bitte kontaktieren Sie uns, um mehr darüber zu erfahren",
+                description: "Please contact us to find out more info about this show.",
                 images: [
-                    { src: "img/festival-combo/1.JPG", alt: "" },
-                    { src: "img/festival-combo/2.jpg", alt: "" },
+                    { src: "img/festival-combo/fire-show-in-nus-des-lamptions", alt: "" },
+                    { src: "img/festival-combo/led-show.jpg", alt: "" },
+                    { src: "img/festival-combo/Fire-show-in-Lux-Anna.jpg", alt: "" },
+                    { src: "img/festival-combo/Fire-show-Luxembourg-for-kids-party.jpg", alt: "" },
+                    
                 ]
             }
         }
