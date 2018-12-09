@@ -1,4 +1,3 @@
--
     var commonPageVariables = {
         en: {
             lang: "en",
