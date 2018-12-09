@@ -38,7 +38,7 @@
         de: {
             lang: "de",
             pageTitle: "FEUERSHOW FÜR IHRE HOCHZEIT, FIRMENEVENT ODER GEBURTSTAG, IN LUXEMBURG UND IN DER NÄHE",
-            pageKeywords: "fire show, fireshow, fire show Luxembourg, fireshow Luxembourg, led show, wedding show, wedding gift, wedding entertainment, corporate show",
+            pageKeywords: "Feuershow, fireshow, Feuershow in Luxemburg, Feuershow Luxemburg, LED show, Hochzeitsshow, HOCHZEIT show, Hochzeitsgeschenk, Hochzeitsunterhaltung, Feuershow Deutschland, FIRMENEVENT",
             pageDescription: "",
             orderNow: "Bestellen",
             close: "Schließen",
