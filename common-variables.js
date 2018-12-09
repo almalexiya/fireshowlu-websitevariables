@@ -37,20 +37,20 @@
         },
         de: {
             lang: "de",
-            pageTitle: "",
+            pageTitle: "FEUERSHOW FÜR IHRE HOCHZEIT, FIRMENEVENT ODER GEBURTSTAG, IN LUXEMBURG UND IN DER NÄHE",
             pageKeywords: "fire show, fireshow, fire show Luxembourg, fireshow Luxembourg, led show, wedding show, wedding gift, wedding entertainment, corporate show",
             pageDescription: "",
             orderNow: "Bestellen",
             close: "Schließen",
             footer: {
-                copyright: "Copyright &copy; fireshow.lu 2016",
-                photogallery1Title: "Highlights from our shows",
-                photogallery2Title: "Highlights from our LED shows",
-                videoPromoTitle:"Fireshow promotional video:",
-                videoThronesTitle:'Fireshow "Game of Thrones":',
-                videoSparkleTitle:"Sparkle show:",
+                copyright: "Copyright & copy; fireshow.lu 2016",
+                photogallery1Title: "Foto von unseren Shows",
+                photogallery2Title: "Foto von unseren LED Shows",
+                videoPromoTitle:"Feuershow video:",
+                videoThronesTitle:'Feuershow "Game of Thrones":',
+                videoSparkleTitle:"Funkenshow:",
                 videoLedTitle:"LED show:",
-                videoCorporateTitle:"Corporate events:"
+                videoCorporateTitle:"Firmenevent:"
             }
         }
     }
